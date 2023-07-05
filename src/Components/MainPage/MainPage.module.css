@@ -1,0 +1,110 @@
+.invitationCardStyle{
+    width: 25%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    outline: 2rem;
+    border:1px solid white;
+    padding:25px;
+    background-color: #FFF;
+}
+
+.mainDiv{
+    background-color: #2F6D6B;
+    color:#FFF;
+}
+
+.ceremony{
+    background-color: #2F6D6B;
+    padding-top:2rem;
+    color:#FFF;
+}
+
+.regalo{
+    background-color: #2F6D6B;
+    color:#FFF;
+}
+
+.linea{
+    width: 80%;
+    margin:2rem 0;
+}
+
+.saveTheDate{
+    background-color: #2F6D6B;
+    color:#FFF;
+}
+
+.instagram{
+    background-color: lightyellow;
+    color:black;
+    padding:2rem;
+}
+
+.specialFont{
+    font-size:25px;
+    font-family:'Saturday Wedding'
+}
+
+.ceremonyDiv{
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+.infoText{
+    width: 50%;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.vestimenta{
+    width: 70%;
+}
+
+.whiteButtom{
+    border-radius: 5px;
+    padding:10px;
+    background-color:rgb(224 229 219) ;
+    color:#2F6D6B;
+    border-color:lightyellow;
+    cursor:pointer;
+    letter-spacing: 2px;
+    font-size:10px;
+}
+
+.whiteButtom:hover{
+    background-color: #FFF;
+}
+
+
+.greenBottom{
+    border-radius: 5px;
+    padding:10px;
+    background-color:#2F6D6B;
+    color:rgb(224 229 219);
+    border-color:lightyellow;
+    cursor:pointer;
+    letter-spacing: 2px;
+    font-size:10px;
+}
+
+.greenBottom:hover{
+    background-color: rgb(224 229 219);
+    border-color:#2F6D6B;
+    color:#2F6D6B;
+    scale:1.05;
+}
+
+.tagInstagram{
+    clip-path: polygon(0% 0%, 100% 0, 84% 50%, 100% 100%, 0% 100%);    background-color: #2F6D6B;
+    color:#FFF;
+    padding-left:20px;
+    padding-right:40px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
