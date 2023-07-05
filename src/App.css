@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'Saturday Wedding';
+  font-family:'SaturdayWedding';
   src: url('./../../my-app/src/assets/fonts/SaturdayWedding.otf') format('opentype');
   /* Puedes agregar más formatos de fuente aquí si lo deseas */
 }
