@@ -118,7 +118,7 @@ const MainPage = () => {
                     <div className={styles.vestimenta} style={{ marginBottom: '2rem' }}>
                         Nuestro código de vestimenta será:
                         <br></br>
-                        <b style={{ marginTop: '1rem' }}>Elegante Sport</b>
+                        <b style={{ marginTop: '1rem' }}>Elegante </b>
                     </div>
                 </div>
             </div>
