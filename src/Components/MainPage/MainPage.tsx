@@ -59,7 +59,7 @@ const MainPage = () => {
             <div className={styles.ceremony}>
                 <div className={styles.ceremonyDiv}>
                     <img src={church} alt='church' style={{ width: '60px', color: 'white' }} />
-                    <div style={{borderBottom:'3px solid white',paddingBottom:'2rem',width:'80%'}} className={styles.specialFont}>
+                    <div style={{ borderBottom: '3px solid white', paddingBottom: '2rem', width: '80%' }} className={styles.specialFont}>
                         Ceremonia Religiosa
                     </div>
                     <div className={styles.infoText}>
@@ -74,12 +74,13 @@ const MainPage = () => {
                         San Clemente 1900 <br></br>
                         Villa Allende | Córdoba
                     </div>
-                    <a href="https://www.google.com/maps/place/Convento+San+Alfonso/@-31.3048362,-64.2981096,17z/data=!3m1!4b1!4m6!3m5!1s0x94329d06c7decc7f:0x6e0f738ff3e315db!8m2!3d-31.3048408!4d-64.2955347!16s%2Fg%2F11ckqszv2v?entry=ttu" target="_blank">
-                        <button className={styles.whiteButtom}>
-                            Cómo llegar
-                        </button>
-                    </a>
-                    <hr className={styles.linea} />
+                    <div style={{borderBottom:'3px solid white',paddingBottom:'2rem',width:'80%'}}>
+                        <a href="https://www.google.com/maps/place/Convento+San+Alfonso/@-31.3048362,-64.2981096,17z/data=!3m1!4b1!4m6!3m5!1s0x94329d06c7decc7f:0x6e0f738ff3e315db!8m2!3d-31.3048408!4d-64.2955347!16s%2Fg%2F11ckqszv2v?entry=ttu" target="_blank">
+                            <button className={styles.whiteButtom}>
+                                Cómo llegar
+                            </button>
+                        </a>
+                    </div>
                     <div>
                         <img src={celebration} alt='party' style={{ width: '60px', color: 'white' }} />
                     </div>
@@ -130,10 +131,9 @@ const MainPage = () => {
                         Para nosotros nuestro mejor regalo
                         siempre será su presencia,
                         pero en el caso que deseen hacernos un presente, pueden ayudarnos con nuestra                    </div>
-                    <div className={styles.specialFont}>
+                    <div className={styles.specialFont} style={{borderBottom:'3px solid white',paddingBottom:'2rem',width:'80%'}}>
                         Luna de Miel
                     </div>
-                    <hr className={styles.linea} />
                     <div className={styles.infoText}>
                         CBU:0000000000000000
                         Alias : boda.sofiymauri
