@@ -7,7 +7,7 @@ import image3 from './../../assets/img/3maurisofi.jpeg'
 import image4 from './../../assets/img/4maurisofi.jpeg'
 import image5 from './../../assets/img/5maurisofi.jpeg'
 import church from './../../assets/img/svg/church.svg'
-import party from './../../assets/img/party.png';
+import celebration from './../../assets/img/svg/celebration.svg';
 import tie from './../../assets/img/svg/tie.svg'
 import woman from './../../assets/img/woman.png'
 import box from './../../assets/img/svg/box.svg'
@@ -34,14 +34,17 @@ const MainPage = () => {
             <div className={styles.mainDiv}>
                 <img src={image} alt='imagenboda' className={styles.invitationCardStyle}></img>
             </div>
-            <div className={styles.ourHistory}>
-                <div className={styles.specialFont}>
+            <div className={styles.ourHistory} style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+                <div className={styles.ourHistoryText}>
                     Nuestra Historia
                 </div>
-                <div>
-                    "Si te caes te levanto y si no me acuesto contigo".
+                <div className={styles.fraseCortazar} style={{ marginTop: '2rem' }}>
+                    <blockquote>
+                        <p><em>"Si te caes te levanto y si no me acuesto contigo".</em></p>
+                        <footer>Julio Cortazar</footer>
+                    </blockquote>
                 </div>
-                <Carousel>
+                <Carousel style={{ marginTop: '2rem' }}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -56,10 +59,9 @@ const MainPage = () => {
             <div className={styles.ceremony}>
                 <div className={styles.ceremonyDiv}>
                     <img src={church} alt='church' style={{ width: '60px', color: 'white' }} />
-                    <div className={styles.specialFont}>
+                    <div style={{borderBottom:'3px solid white',paddingBottom:'2rem',width:'80%'}} className={styles.specialFont}>
                         Ceremonia Religiosa
                     </div>
-                    <hr className={styles.linea} />
                     <div className={styles.infoText}>
                         Te esperamos el dia
                         14 de Octubre de 2023
@@ -79,7 +81,7 @@ const MainPage = () => {
                     </a>
                     <hr className={styles.linea} />
                     <div>
-                        <img src={party} alt='party' style={{ width: '60px', color: 'white' }} />
+                        <img src={celebration} alt='party' style={{ width: '60px', color: 'white' }} />
                     </div>
                     <div className={styles.specialFont}>
                         La Fiesta
@@ -193,7 +195,7 @@ const MainPage = () => {
                     </a>
                 </div>
             </div>
-            <div style={{paddingTop:'8rem',paddingBottom:'6rem'}}className={styles.venis}>
+            <div style={{ paddingTop: '8rem', paddingBottom: '6rem' }} className={styles.venis}>
                 <div className={styles.ceremonyDiv} style={{ marginBottom: '4rem' }}>
                     <div>
                         <img src={confirmar} alt='confirmar' style={{ width: '60px', color: 'white', stroke: 'white' }} />

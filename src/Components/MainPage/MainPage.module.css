@@ -13,10 +13,21 @@
     color:#FFF;
 }
 
+.ourHistoryText{
+    font-size:46px;
+    font-family:'AlexanderLettering';
+    color:#0B5351;
+}
+
 .ceremony{
     background-color: #2F6D6B;
     padding-top:2rem;
     color:#FFF;
+}
+
+.fraseCortazar{
+    font-size:14px;
+    font-family: sans-serif;
 }
 
 .regalo{
@@ -27,6 +38,7 @@
 .linea{
     width: 80%;
     margin:2rem 0;
+    background-color: white;
 }
 
 .saveTheDate{
@@ -41,8 +53,8 @@
 }
 
 .specialFont{
-    font-size:25px;
-    font-family:'SaturdayWedding'
+    font-size:46px;
+    font-family:'AlexanderLettering';
 }
 
 .ceremonyDiv{
