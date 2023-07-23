@@ -1,11 +1,7 @@
 import React from 'react'
 import styles from './MainPage.module.css'
 import image from './../../assets/img/invitationCard.jpeg'
-import image1 from './../../assets/img/1maurisofi.jpeg'
-import image2 from './../../assets/img/2maurisofi.jpeg'
-import image3 from './../../assets/img/3maurisofi.jpeg'
-import image4 from './../../assets/img/4maurisofi.jpeg'
-import image5 from './../../assets/img/5maurisofi.jpeg'
+
 import church from './../../assets/img/svg/church.svg'
 import celebration from './../../assets/img/svg/celebration.svg';
 import tie from './../../assets/img/svg/tie.svg'
@@ -16,17 +12,10 @@ import music from './../../assets/img/svg/music.svg'
 import agenda from './../../assets/img/svg/agenda.svg'
 import instagram from './../../assets/img/svg/instagram.svg'
 import confirmar from './../../assets/img/svg/confirmar.svg'
+import Gallery from '../Gallery/Gallery';
 
 
 
-
-
-
-
-
-
-
-import { Carousel } from 'react-bootstrap'
 
 const MainPage = () => {
     return (
@@ -44,17 +33,10 @@ const MainPage = () => {
                         <footer>Julio Cortazar</footer>
                     </blockquote>
                 </div>
-                <Carousel style={{ marginTop: '2rem' }}>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={image1}
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+
+            </div>
+            <div>
+                <Gallery></Gallery>
             </div>
             <div className={styles.ceremony}>
                 <div className={styles.ceremonyDiv}>
@@ -74,7 +56,7 @@ const MainPage = () => {
                         San Clemente 1900 <br></br>
                         Villa Allende | Córdoba
                     </div>
-                    <div style={{borderBottom:'3px solid white',paddingBottom:'2rem',width:'80%'}}>
+                    <div style={{ borderBottom: '3px solid white', paddingBottom: '2rem', width: '80%' }}>
                         <a href="https://www.google.com/maps/place/Convento+San+Alfonso/@-31.3048362,-64.2981096,17z/data=!3m1!4b1!4m6!3m5!1s0x94329d06c7decc7f:0x6e0f738ff3e315db!8m2!3d-31.3048408!4d-64.2955347!16s%2Fg%2F11ckqszv2v?entry=ttu" target="_blank">
                             <button className={styles.whiteButtom}>
                                 Cómo llegar
@@ -131,7 +113,7 @@ const MainPage = () => {
                         Para nosotros nuestro mejor regalo
                         siempre será su presencia,
                         pero en el caso que deseen hacernos un presente, pueden ayudarnos con nuestra                    </div>
-                    <div className={styles.specialFont} style={{borderBottom:'3px solid white',paddingBottom:'2rem',width:'80%'}}>
+                    <div className={styles.specialFont} style={{ borderBottom: '3px solid white', paddingBottom: '2rem', width: '80%' }}>
                         Luna de Miel
                     </div>
                     <div className={styles.infoText}>
