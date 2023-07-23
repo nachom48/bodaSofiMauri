@@ -134,7 +134,7 @@ const MainPage = () => {
                         ¡La fiesta la hacemos entre todos!
                     </div>
                     <div className={styles.specialFont}>
-                        Que tema no puede faltar?
+                        ¿Qué tema no puede faltar?
                     </div>
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSf_PFZDGaQlhhScBPZ8-ePmMEc8WVsoif3UA_tc5DKX-PFH5Q/viewform?usp=sf_link' target='_blank'>
                         <button className={styles.greenBottom}>
